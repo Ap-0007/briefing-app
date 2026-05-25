@@ -1,0 +1,9 @@
+customtkinter
+feedparser
+ollama
+schedule
+pyttsx3
+yfinance
+fpdf2
+requests
+pillow
