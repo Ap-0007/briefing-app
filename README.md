@@ -1,26 +1,42 @@
-# Morning Briefing App
+# Briefing App
 
-A comprehensive Python-based desktop application for fetching, analyzing, and presenting a personalized daily briefing. Built with `customtkinter`, this app integrates news fetching, AI-driven sentiment analysis, stock market tracking, text-to-speech (TTS), and more into a sleek, dark-themed dashboard.
+Briefing App — a project by vanta.nox.
 
-## Features
-- **Dashboard Interface**: Built with modern UI elements using CustomTkinter.
-- **AI Analysis**: Uses local LLMs (via Ollama) to analyze news and extract insights, market moods, and sentiment scores.
-- **Portfolio & Market Tracking**: Live updates of market indices and personalized stock portfolio monitoring.
-- **Text-to-Speech (TTS)**: Built-in TTS engine to read the briefing aloud.
-- **Notifications & Weekly Digest**: Supports automated email sending and PDF exports for daily digests.
+![Language](https://img.shields.io/badge/language-Python-blue) ![License](https://img.shields.io/badge/license-MIT-green) ![GitHub](https://img.shields.io/github/stars/Ap-0007/briefing-app?style=social)
 
-## Setup
-1. Ensure Python 3.10+ is installed.
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Make sure you have Ollama running locally if using the AI analysis features.
+## 📖 About
 
-## Usage
-Run the main application:
+This repository contains the source code for **Briefing App**.
+
+## 🛠️ Tech Stack
+
+- **Primary Language:** Python
+
+## 🚀 Getting Started
+
 ```bash
-./launch.sh
-# or
+# Clone the repository
+git clone https://github.com/Ap-0007/briefing-app.git
+cd briefing-app
+```
+
+```bash
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the application
 python main.py
 ```
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!  
+Feel free to open an [issue](https://github.com/Ap-0007/briefing-app/issues) or submit a pull request.
+
+## 📄 License
+
+This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
+
+---
+
+**Built by [vanta.nox](https://github.com/Ap-0007)**
